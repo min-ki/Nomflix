@@ -9,7 +9,6 @@ Learning React and ES6 by building a Movie Discovery App.
 - [ ] Search
 - [ ] Detail
 
-
 ## API Verbs
 
 - [x] Now playing (Movie)
