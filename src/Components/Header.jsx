@@ -40,7 +40,6 @@ const SLink = styled(Link)`
 // withRouter를 사용하면 props를 받을 수 있다.
 export default withRouter(({ location: { pathname } }) => (
   <Header>
-    {console.log(pathname)}
     <List>
       <Item current={pathname === "/"}>
         <SLink to="/">Movies </SLink>
