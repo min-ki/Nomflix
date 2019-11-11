@@ -7,7 +7,9 @@ const Container = styled.div``;
 
 const ImageContainer = styled.div``;
 
-const Image = styled.div``;
+const Image = styled.div`
+  background-image: ${props => props.bgUrl};
+`;
 
 const Rating = styled.span``;
 
